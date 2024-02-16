@@ -32,7 +32,6 @@
             background-color: rgba(121, 111, 111, 0.61);
             color: white;
         }
-
         
     </style>
 </head>
@@ -44,15 +43,15 @@
         
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Nome</th>
-                <th>Número</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Número</th>
             </tr>
         </thead>
         
         <tbody>
             <tr>
-                <th rowspan="3">Goleiros</th>
+                <th rowspan="3" scope="rowgroup">Goleiros</th>
                 <td>Alisson Becker</td>
                 <td>1</td>
             </tr>
@@ -66,7 +65,7 @@
             </tr>
             
             <tr>
-                <th rowspan="10">Defensores</th>
+                <th rowspan="10" scope="rowgroup">Defensores</th>
                 <td>Joe Gomez</td>
                 <td>2</td>
             </tr>
@@ -108,7 +107,7 @@
             </tr>
 
             <tr>
-                <th rowspan="8">Meio-Campo</th>
+                <th rowspan="8" scope="rowgroup">Meio-Campo</th>
                 <td>Wataru Endo</td>
                 <td>3</td>
             </tr>
@@ -142,7 +141,7 @@
             </tr>
             
             <tr>
-                <th rowspan="6">Atacantes</th>
+                <th rowspan="6" scope="rowgroup">Atacantes</th>
                 <td>Luis Diaz</td>
                 <td>7</td>
             </tr>
